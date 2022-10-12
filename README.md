@@ -19,6 +19,8 @@ public interface ElevatorCompony {
 
 ### 2. 클라이언트 환경에서의 동작
 ```
+// Main
+
 ElevatorCompony elevatorCompony =  new ElevatorComponyTypeA();
 Elevator blueDragonElementarySchool = elevatorCompony.installingElevator("청룡초등학교 중앙 복도");
 Elevator CenterElementarySchool = elevatorCompony.installingElevator("중앙초등학교 중앙 복도");
